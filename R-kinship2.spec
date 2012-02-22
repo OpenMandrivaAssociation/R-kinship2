@@ -10,7 +10,8 @@ License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-Matrix R-quadprog 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Matrix R-quadprog
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Matrix R-quadprog
 
 %description
 Routines to handle family data with a pedigree object. The initial purpose
