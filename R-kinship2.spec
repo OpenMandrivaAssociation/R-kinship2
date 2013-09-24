@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          1.3.7
-Release:          2
+Version:          1.5.4
+Release:          1
 Summary:          Pedigree functions
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/kinship2_1.3.7.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/kinship2_1.5.4.tar.gz
 Requires:         R-Matrix R-quadprog 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-Matrix R-quadprog
@@ -52,3 +52,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
